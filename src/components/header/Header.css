@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.MainHeader{
+width: 100%;
+height: 10vh;
+display:flex ;
+justify-content:space-around;
+align-items: center;
+}
+
+.headerUl{
+    display:flex ;
+    flex-direction: row;
+    list-style: none;
+    justify-content:center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #fff6ff;
+ padding-left: 100px;
+ animation: opacityLi ease-in 2s;
+   
+}
+
+@keyframes opacityLi {
+    from {
+      opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+  }
+
+/* .headerLi{
+    color: #000;
+    font-weight: 400;
+    list-style: none;
+    text-decoration: none;
+    font-family: "site-font";
+    font-size: 20px;
+    letter-spacing: 1px;
+    
+
+} */
+
+.diver{
+    width:130px;
+    height:10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    color: #000;
+    font-weight: 400;
+    list-style: none;
+    text-decoration: none;
+    font-family: "site-font";
+    font-size: 20px;
+    letter-spacing: 1px;
+    
+}
+
+
+
+.diver:hover{
+    box-shadow:inset 0 0 10px #00000033;
+    color:#000
+}
+
+.fafabar{
+    width:130px;
+    height:10vh;
+    color:rgb(0, 0, 0);
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+
+.fafabar:hover{
+    box-shadow:inset 0 0 10px #00000033;
+}
+
+.logologo1{
+
+    height: 10vh;
+   width:10%;
+   
+}  
+
+.logologo1 img{
+  width:80%;
+   height:80%;
+}
