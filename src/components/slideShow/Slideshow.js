@@ -10,8 +10,11 @@ function Slideshow() {
     // const [shad,setShad]=useState("styles");
 
 const caruselStyle={
-
-  
+    // display:"flex" ,
+    // alignItems: "center",
+    // justifyContent: "center",
+    // posiiton:"absolut"
+ 
 }
 
 const caruselItemStyle={
@@ -20,31 +23,39 @@ const caruselItemStyle={
     display:"flex" ,
     alignItems: "center",
     justifyContent: "center",
+ 
   
 }
 
 const innerStyle ={
-    width:"450px",
-    height:"250px",
+    width:"400px",
+    height:"300px",
     display:"flex",
     flexDirection:"column",
     justifyContent:"space-evenly",
     alignItems:"center",
-    paddingBottom:"1.25rem",
-    backgroundColor:"rgba(255, 255, 255, 0.575)",
+    // paddingBottom:"1.25rem",
+    backgroundColor:"rgba(0, 0, 0, 0.475)",
     animation: "opacityh1 ease-in 2s",
-    
+  borderRadius:"20px",
+  margin:"auto",
+  top:"0",
+  bottom:"0",
+  left:"0",
+  right:"0",
+  
+ 
 }
 
     const buttonStyle = {
         width: "150px",
         fontSize: "20px",
         color: "black",
-        background: "#fff6ff",
+        background: "#e1c9b4",
         fontFamily: "site-font",
         border: "none",
         boxShadow: "none",
-        // boxShadow: "inset 0 0 10px #00000033",
+        boxShadow: "inset 0 0 10px #00000033",
         // '&:hover': {
         //     boxShadow: "inset 0 0 10px #00000033",
         // },
@@ -55,22 +66,25 @@ const innerStyle ={
 
     return (
         <>
-            <Carousel style={caruselStyle}>
+            <Carousel >
                 <Carousel.Item style={caruselItemStyle}>
                 
                     <img
                         className="picpic"
-                        src="/pictures/img1.jpg"
+                        src="/pictures/cover.jpg"
                         alt="First slide"
 
                     />
+                    {/* <div className="divdiv"> */}
                     <Carousel.Caption className="innerinner" style={innerStyle}>
                     <h1 className="rtcText">Rachel Table Cloth</h1>
+                    
                         <Link to="/shop" >
                             <Button className="primary"
                                 style={buttonStyle} >Enter Shop</Button>
                         </Link>
                     </Carousel.Caption>
+                    {/* </div> */}
                 </Carousel.Item>
 
              

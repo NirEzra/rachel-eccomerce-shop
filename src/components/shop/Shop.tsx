@@ -57,10 +57,6 @@ export default function Shop() {
 
   return (
       <>
-
-  
-   
-   
     <Button
         aria-controls="customized-menu"
         aria-haspopup="true"
