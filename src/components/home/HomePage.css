@@ -23,7 +23,7 @@ align-items: center;
 
 .BottomSqares{
     width:100%;
-    height:50vh;
+    height:45vh;
    
     display: flex;
     flex-direction:row;

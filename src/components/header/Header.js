@@ -13,7 +13,7 @@ function Header() {
 
 
   return (
-    <div className="MainHeader" style={{padding:"15px 15px 2500px",fontSize:"30px",marginTop:"30px"}}>
+    <div className="MainHeader" >
       <div className="headerUl">
       <div className="logologo1">
          <img  src="/pictures/logo1.png"/>
