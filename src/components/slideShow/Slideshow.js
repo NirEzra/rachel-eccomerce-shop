@@ -18,7 +18,7 @@ const caruselStyle={
 }
 
 const caruselItemStyle={
-    width:"100vw",
+    width:"100%",
     height:"100%",
     display:"flex" ,
     alignItems: "center",
@@ -28,8 +28,8 @@ const caruselItemStyle={
 }
 
 const innerStyle ={
-    width:"400px",
-    height:"300px",
+    width:"fit-content",
+    height:"fit-content",
     display:"flex",
     flexDirection:"column",
     justifyContent:"space-evenly",

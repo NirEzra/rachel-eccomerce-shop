@@ -10,18 +10,18 @@ function Header() {
   const { currentUser } = useAuth();
   console.log(currentUser && currentUser.email);
 
+
+
   return (
-    <div className="MainHeader">
+    <div className="MainHeader" style={{padding:"15px 15px 2500px",fontSize:"30px",marginTop:"30px"}}>
       <div className="headerUl">
       <div className="logologo1">
          <img  src="/pictures/logo1.png"/>
        </div>
-        {/* <i className="fa fa-bars" aria-hidden="true"></i> */}
+       
      
 
-        {/* <Link to="/" style={{ textDecoration: "none" }} className="diver">
-            Home
-          </Link> */}
+      
 
         <Link to="/about" className="diver">
           About
