@@ -58,40 +58,18 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        <section className='social-media'>
-          <div className='social-media-wrap'>
-            <div className='footer-logo'>
-              <Link to='/' className='social-logo'>
-                
-               
-              </Link>
-            </div>
-            <p className="copyright"><a className="link" href="https://www.linkedin.com/in/tal-mamistvalov/" target="_blank">Tal
+        
+          
+          
+          
+                          <p className="copyright"><a className="link" href="https://www.linkedin.com/in/tal-mamistvalov/" target="_blank">Tal
         Mamistvalov</a>  & <a className="link" href="https://www.linkedin.com/in/nir-ezra/" target="_blank">Nir Ezra </a>
       Rights Reserved 2021 <i className="far fa-copyright"></i> </p>
-            <div className='social-icons'>
-              <Link
-                className='social-icon-link'
-                to='/'
-                target='_blank'
-                aria-label='Facebook'
-              >
-   
-              </Link>
-             
-             
-             
-              <Link
-                className='social-icon-link'
-                to='/'
-                target='_blank'
-                aria-label='LinkedIn'
-              >
-            
-              </Link>
             </div>
-          </div>
-        </section>
-      </div>
+
+          
+         
+        
+   
     )
 }

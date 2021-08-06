@@ -28,16 +28,16 @@ const caruselItemStyle={
 }
 
 const innerStyle ={
-    width:"fit-content",
+    width:"auto",
     height:"fit-content",
-    display:"flex",
+    display:"flex=box",
     flexDirection:"column",
     justifyContent:"space-evenly",
     alignItems:"center",
     textAlign:"center",
     // paddingBottom:"1.25rem",
     // backgroundColor:"rgba(0, 0, 0, 0.475)",
-    animation: "opacityh1 ease-in 2s",
+    animation: "opacityh1 ease-in 5s",
   borderRadius:"20px",
   margin:"auto",
   top:"0",
@@ -55,8 +55,9 @@ const innerStyle ={
         background: "#e1c9b4",
         fontFamily: "site-font",
         border: "none",
-        boxShadow: "none",
+       
         boxShadow: "inset 0 0 10px #00000033",
+        animation: "opacityh2 ease-in 9s",
         // '&:hover': {
         //     boxShadow: "inset 0 0 10px #00000033",
         // },
